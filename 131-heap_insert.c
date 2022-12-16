@@ -37,6 +37,7 @@ void enqueue_item_3(heap_t **queue_h, heap_t **queue_t,
  * @queue_h: A pointer to the queue's head.
  * @queue_t: A pointer to the queue's tail.
  * @n: A pointer to the queue's size value.
+ *
  * Return: The value of the removed queue.
  */
 heap_t *dequeue_item_3(heap_t **queue_h,
@@ -76,6 +77,7 @@ heap_t *dequeue_item_3(heap_t **queue_h,
  * get_insert_position - Gets the next available insertion position \
  * for a node in a max binary heap tree.
  * @root: The root of the max binary heap tree.
+ *
  * Return: The insertion position, otherwise NULL.
  */
 heap_t *get_insert_position(const heap_t *root)
@@ -168,6 +170,7 @@ void swap_tree_node_with_parent(heap_t **node, heap_t **root)
  * heap_insert - Inserts a value into a max binary heap tree.
  * @root: A pointer to the root of the tree.
  * @value: The value to insert.
+ *
  * Return: A pointer to the inserted node.
  */
 heap_t *heap_insert(heap_t **root, int value)
