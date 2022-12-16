@@ -5,6 +5,7 @@
  * tree using post-order traversal
  * @tree: binary tree
  * @func:  pointer to a function to call for each node
+ *
  * Return: Nothing.
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
