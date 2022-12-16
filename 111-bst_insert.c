@@ -4,6 +4,7 @@
  * bst_insert - Inserts a value into a Binary Search Tree.
  * @tree: A pointer to the binary search tree to modify.
  * @value: The value to insert into the tree.
+ *
  * Return: A pointer to the created node, otherwise NULL.
  */
 bst_t *bst_insert(bst_t **tree, int value)
