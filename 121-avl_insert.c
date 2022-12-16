@@ -2,6 +2,7 @@
 
 /**
  * check_balance - checks the balance of each node
+ *
  * @node: pointer to the node
  * @value: input value
  * Return: no return
@@ -41,6 +42,7 @@ void check_balance(avl_t **node, int value)
 
 /**
  * avl_in - checks if node is inserted
+ *
  * @tree: tree root
  * @value: node value
  * Return: pointer to the new node
@@ -86,6 +88,7 @@ avl_t *avl_in(avl_t **tree, int value)
 
 /**
  * avl_insert - inserts a value in a AVL Tree
+ *
  * @tree: tree root
  * @value: node value
  * Return: pointer to the new node
