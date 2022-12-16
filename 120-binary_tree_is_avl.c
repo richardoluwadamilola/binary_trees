@@ -86,6 +86,7 @@ void avl_tree_balance(const binary_tree_t *tree, int *is_balanced)
 /**
  * binary_tree_is_avl - Checks if the given tree is an AVL tree.
  * @tree: The tree to check.
+ *
  * Return: 1 if the tree is an AVL tree, otherwise 0.
  */
 int binary_tree_is_avl(const binary_tree_t *tree)
