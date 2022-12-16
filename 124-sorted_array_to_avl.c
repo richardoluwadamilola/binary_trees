@@ -5,6 +5,7 @@
  * @parent: The AVL tree's parent.
  * @array: The sorted array of integers.
  * @size: The length of the given array.
+ *
  * Return: A pointer to the root of thhe AVL tree, otherwise NULL.
  */
 avl_t *tree_builder(avl_t *parent, int *array, int size)
@@ -44,6 +45,7 @@ avl_t *tree_builder(avl_t *parent, int *array, int size)
  * sorted_array_to_avl - Builds an AVL tree from a sorted array.
  * @array: The sorted array of integers.
  * @size: The length of the given array.
+ *
  * Return: A pointer to the root of thhe AVL tree, otherwise NULL.
  */
 avl_t *sorted_array_to_avl(int *array, size_t size)
